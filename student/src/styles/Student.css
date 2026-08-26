@@ -1,0 +1,62 @@
+.students-page h2 {
+  margin-bottom: 12px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.students-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.student-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.student-card h3 {
+  margin: 0 0 8px;
+}
+
+.student-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.student-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.details-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+.details-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.not-found-page {
+  text-align: center;
+  padding: 60px 20px;
+}

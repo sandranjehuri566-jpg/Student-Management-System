@@ -1,0 +1,45 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "fullName": "Ava Thompson",
+      "admissionNumber": "STD-2024-001",
+      "email": "ava.thompson@school.edu",
+      "course": "Computer Science",
+      "grade": 94
+    },
+    {
+      "id": "2",
+      "fullName": "Daniel Kim",
+      "admissionNumber": "STD-2024-002",
+      "email": "daniel.kim@school.edu",
+      "course": "Business Administration",
+      "grade": 88
+    },
+    {
+      "id": "3",
+      "fullName": "Sophia Patel",
+      "admissionNumber": "STD-2024-003",
+      "email": "sophia.patel@school.edu",
+      "course": "Psychology",
+      "grade": 91
+    },
+    {
+      "id": "4",
+      "fullName": "Michael Nguyen",
+      "admissionNumber": "STD-2024-004",
+      "email": "michael.nguyen@school.edu",
+      "course": "Engineering",
+      "grade": 86
+    },
+    {
+      "fullName": "Sandra",
+      "admissionNumber": "33333",
+      "email": "sandra@gmail.com",
+      "course": "Computer science",
+      "grade": 100,
+      "id": "Ao_0n3fNIow"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
