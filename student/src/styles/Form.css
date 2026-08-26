@@ -1,0 +1,33 @@
+.form-page {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.student-form label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.student-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.error-text {
+  color: #dc2626;
+  font-size: 12px;
+}
+
+.student-form button {
+  margin-top: 20px;
+  align-self: flex-start;
+}
